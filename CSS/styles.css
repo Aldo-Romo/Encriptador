@@ -1,0 +1,138 @@
+/* Estilos para el cuerpo de la página */
+body {
+  background-image: linear-gradient(to bottom right, #090336, #090340);
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.logo{
+  position: relative;
+  top: 45px;
+  left: 1150px;
+  width: 8%;
+}
+
+/* Estilos para titulo */
+.encabezado{
+  display: inline-block;
+  text-align: left;
+  font-size: 60px;
+}
+.encabezado1{
+  display: inline;
+  position: relative;
+  text-align: left;
+  font-size: 60px;
+}
+
+
+
+
+
+/* Estilos para los textareas */
+.texto {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+#mensaje-encriptado {
+  display: block;
+  width: 45%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los botones */
+button[type="button"], 
+input[type="button"] {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7579ff;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:hover, 
+input:hover {
+  background-color: #7c53a9;
+}
+
+/* Efecto para resaltar el botón al hacer clic */
+button:focus, 
+input:focus {
+  box-shadow: 0px 0px 10px #7579ff;
+}
+
+/* Estilos para el contenedor principal */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 50px;
+  max-width: 1200px;
+}
+
+/* Estilos para los elementos en la columna izquierda */
+.encriptar {
+  width: 45%;
+}
+
+/* Estilos para los elementos en la columna derecha */
+.pantalla-encriptado {
+  width: 45%;
+}
+
+/* Estilos para la imagen de fondo del encabezado */
+.img-fondo {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilos para la imagen del muñeco */
+.munheco {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+/* Estilos para footer */
+.pie-pag-nom{
+  position: under;
+  text-align: left;
+  font-size: 15px;
+  }
+
+.arq{
+  width: 5%;
+ 
+ 
+}
+
+

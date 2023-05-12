@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+
+    <header>
+       <!-- <img class="img-alura" src="imagenes/inicialAlura.png" alt="Logo Alura"> 
+        <img class="img-fondo" src="imagenes/coding.gif"> -->
+        <img class="logo" src="imagenes/inicialAlura.png" alt="Logo">
+        <h1 class="encabezado">Challenge ALURA #Encriptador</h1>
+        
+
+
+    </header>
+    <div class="contenedor">
+       
+            <div class="encriptar">
+                <textarea class="texto" name="texto" id="texto" cols="30" rows="10"
+                    placeholder="Ingresa tu texto aquí"></textarea>
+                <div class="terminos">
+                    <p>Solo letras minusculas y sin acentos.</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                    <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+                </div>
+            </div>
+      
+
+            <div class="pantalla-encriptado">
+                <div id="contenido-pantalla-encriptado">
+                    <img class="munheco" src="imagenes/muneco.png" alt="imagen-encriptado">
+                    <div class="titulo-mensaje">
+                        <h2>Ningun mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar y desencriptar</p>
+                    </div>
+                </div>
+                <!-- Texto ya encriptado -->
+                <div id="area-texto-encriptado">
+                    <textarea readonly name="mensaje-encriptado" id="mensaje-encriptado" cols="30" rows="10"></textarea>
+                    <div class="copiar">
+                        <input class="btn-copiar" type="button" value="Copiar" onclick="copiar()">
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+<footer>
+    <img class="arq" src="imagenes/arq.png" alt="Logo">
+    <h5 class="pie-pag-nom">By: Aldo Romo</h5>
+</footer>
+<script src="codigo.js"></script>
+</html>
